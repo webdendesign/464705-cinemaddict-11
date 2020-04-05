@@ -1,4 +1,4 @@
-const createCardFilmExtraTemplate = () => {
+export const createCardFilmExtraTemplate = () => {
   return (
     `<section class="films-list--extra">
       <h2 class="films-list__title">Top rated</h2>
@@ -43,5 +43,3 @@ const createCardFilmExtraTemplate = () => {
     </section>`
   );
 };
-
-export default createCardFilmExtraTemplate;

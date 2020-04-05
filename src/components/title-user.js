@@ -1,4 +1,4 @@
-const createTitleUserTemplate = () => {
+export const createTitleUserTemplate = () => {
   return (
     `<section class="header__profile profile">
       <p class="profile__rating">Movie Buff</p>
@@ -7,4 +7,3 @@ const createTitleUserTemplate = () => {
   );
 };
 
-export default createTitleUserTemplate;

@@ -1,4 +1,4 @@
-const createFilterTemplate = () => {
+export const createFilterTemplate = () => {
   return (
     `<ul class="sort">
       <li><a href="#" class="sort__button sort__button--active">Sort by default</a></li>
@@ -8,4 +8,3 @@ const createFilterTemplate = () => {
   );
 };
 
-export default createFilterTemplate;

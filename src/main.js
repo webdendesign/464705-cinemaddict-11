@@ -1,12 +1,12 @@
-import createTitleUserTemplate from './components/title-user';
-import createMenuTemplate from './components/menu';
-import createFilterTemplate from './components/filter';
-import createFilmsTemplate from './components/fimls';
-import createCardFilmTemplate from './components/card-film';
-import createLoadMoreButtonTemplate from './components/load-button';
-import createCardFilmExtraTemplate from './components/film-extra';
-import createAmountFilmTemplate from './components/amount-film';
-import createFilmDetailsTemplate from './components/film-details';
+import { createTitleUserTemplate } from './components/title-user';
+import { createMenuTemplate } from './components/menu';
+import { createFilterTemplate } from './components/filter';
+import { createFilmsTemplate } from './components/fimls';
+import { createCardFilmTemplate } from './components/card-film';
+import { createLoadMoreButtonTemplate } from './components/load-button';
+import { createCardFilmExtraTemplate } from './components/film-extra';
+import { createAmountFilmTemplate } from './components/amount-film';
+// import {createFilmDetailsTemplate} from './components/film-details';
 
 const TASK_COUNT = 5;
 const AMOUNT_FILM = 2;
@@ -39,4 +39,4 @@ const siteFooterElement = document.querySelector(`.footer`);
 const footerStatisticsElement = siteFooterElement.querySelector(`.footer__statistics`);
 render(footerStatisticsElement, createAmountFilmTemplate(), `beforeend`);
 
-render(siteFooterElement, createFilmDetailsTemplate(), `afterend`);
+// render(siteFooterElement, createFilmDetailsTemplate(), `afterend`);
